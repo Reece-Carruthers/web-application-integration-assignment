@@ -1,6 +1,13 @@
 # KF6012 - Web Application Integration
-## This API was developed by Reece Carruthers (W19011575)
 
+A third year assignment which included developing a frontend and a backend to host and serve conference data. I gained a mark of 77%.
+
+The frontend was coded using React and Tailwind CSS.
+The backend made use of PHP, Firebase JWT and an SQLite databse for users and conference data.
+
+I learned a lot from this assignment. If I had more time I would have liked to clean the components up more and make the React code more readable. Additionally, I would have liked to make the API Restful or HATEOAS.
+
+## This API was developed by Reece Carruthers (W19011575)
 
 All endpoints will start with the URL: https://w19011575.nuwebspace.co.uk/assignment/api/ and all return JSON data
 The frontend application is deployed on https://w19011575.nuwebspace.co.uk/assignment-frontend/
@@ -105,8 +112,8 @@ The frontend application is deployed on https://w19011575.nuwebspace.co.uk/assig
 ```
 
 ### **Endpoint 4: Author and Affiliation**
-## `GET https://w19011575.nuwebspace.co.uk/assignment/api/author-and-affiliation?contentID=[Option[Int]]`
-## `GET https://w19011575.nuwebspace.co.uk/assignment/api/author-and-affiliation?country=[Option[String]]`
+## `GET https://w19011575.nuwebspace.co.uk/assignment/api/author-affiliation?contentID=[Option[Int]]`
+## `GET https://w19011575.nuwebspace.co.uk/assignment/api/author-affiliation?country=[Option[String]]`
 
 #### Params
 
