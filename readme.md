@@ -6,7 +6,13 @@ The frontend was coded using React and Tailwind CSS.
 
 The backend made use of PHP, Firebase JWT and an SQLite databse for users and conference data.
 
-I learned a lot from this assignment. If I had more time I would have liked to clean the components up more and make the React code more readable. Additionally, I would have liked to make the API Restful or HATEOAS.
+I learned a lot from this assignment. If I had more time I would have liked to clean the components up more and make the React code more readable. Additionally, I would have liked to make the API Restful or HATEOAS, as well as, writing unit tests to test the functionallity of the API and frontend.
+
+To test the account functionallity you can use this email address and password combination
+
+Email: john@example.com
+
+Password: examplePassword1234
 
 ## This API was developed by Reece Carruthers (W19011575)
 
